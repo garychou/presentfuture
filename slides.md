@@ -25,7 +25,7 @@ mdc: true
 #  ogImage: https://cover.sli.dev
 ---
 
-# Welcome to Slidev
+# Welcome!
 
 Presentation slides for developers
 
