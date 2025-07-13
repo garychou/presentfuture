@@ -1,4 +1,4 @@
-name: Deploy 11ty to GitHub Pages
+name: Deploy Slidev to GitHub Pages
 
 on:
   push:
@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
-      - run: npx @11ty/eleventy
+      - run: npm run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./dist
