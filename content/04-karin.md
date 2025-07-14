@@ -1,1 +1,5 @@
-**Karin Chien** is the founder of Art & Action Productions, a multi-format production company launched in 2005, and the founder of dGenerate Films, the leading North American distributor of independent Chinese cinema since 2008. Karin helps artists and creators navigate evolving systems as co-founder of Distribution Advocates and director of the Nevada City Filmmakers Residency, a creative retreat for producers. Karin was a DFPI Research Fellow at the Harvard Shorenstein Center, where she studied business model innovations across storytelling.
+**[Karin Chien](https://www.karinchien.com/)** is the founder of Art & Action Productions, a multi-format production company launched in 2005, and the founder of dGenerate Films, the leading North American distributor of independent Chinese cinema since 2008. 
+
+Karin helps artists and creators navigate evolving systems as co-founder of Distribution Advocates and director of the Nevada City Filmmakers Residency, a creative retreat for producers.
+
+Karin was a DFPI Research Fellow at the Harvard Shorenstein Center, where she studied business model innovations across storytelling.

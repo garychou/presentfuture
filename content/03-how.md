@@ -1,6 +1,6 @@
 # Let's work together.
 
-We work with public, philanthropic, and private funders—including investors—to shape funding approaches that make this possible.
+We work with public, philanthropic, and private funders and investors to shape funding approaches that make this possible.
 
 We help them:
 

@@ -14,6 +14,11 @@ export default defineNuxtConfig({
       routes: ['/']
     }
   },
+  content: {
+    renderer: {
+      anchorLinks: false // Disable automatic anchor links
+    },
+  },
   vite: {
     server: {
       allowedHosts: [
@@ -25,10 +30,8 @@ export default defineNuxtConfig({
   app: {
     head: {
       meta: [
-        { 
-          name: 'viewport', 
-          content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' 
-        }
+        { name: 'viewport',  content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
+
       ]
     }
   },
@@ -37,8 +40,8 @@ export default defineNuxtConfig({
     preload: true,
     families: {
       // Example: Playfair Display for headings, Inter for body
-      'Playfair+Display': [400, 500, 700],
-      Inter: [400, 500, 600],
+      'DM+Serif+Text': [400, 500, 700],
+      'Schibsted+Grotesk': [400, 500, 600],
     },
   },
 })

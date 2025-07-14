@@ -5,8 +5,6 @@ export default defineCollection({
     source: {
       include: '**/*.md'
     },
-    markdown: {
-      anchorLinks: false // Disable automatic anchor links
-    }
+    
   }
 })

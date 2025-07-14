@@ -7,11 +7,11 @@
     <!-- Hero Section -->
    <section 
       ref="heroSection"
-      class="h-screen snap-start bg-gradient-to-r from-blue-500 to-purple-600 px-8"
+      class="h-screen snap-start bg-gradient-to-r from-blue-500 to-purple-600 px-5"
     >
       <div class="h-full flex items-center justify-center text-lg md:text-3xl ">
         <div 
-          class="prose prose-invert prose-lg lg:prose-2xl text-left mx-auto transition-all duration-1000 transform"
+          class="prose prose-invert lg:prose-xl text-left mx-auto transition-all duration-1000 transform"
           :class="heroVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
         >
           <ContentRenderer v-if="hero" :value="hero" />
@@ -23,9 +23,9 @@
     <!-- Funder Section -->
     <section 
       ref="fundersSection"
-      class="h-screen snap-start bg-red-50 px-8"
+      class="h-screen snap-start bg-red-50 px-5"
     >
-      <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-4xl mx-auto">
+      <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-3xl mx-auto">
         <div 
           class="transition-all duration-1000 transform"
           :class="fundersVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'"
@@ -38,9 +38,8 @@
     <!-- How Section -->
     <section 
       ref="howSection"
-      class="h-screen snap-start bg-green-50 px-8"
-    >
-      <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-4xl mx-auto">
+      class="h-screen snap-start bg-green-50 px-5">
+      <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-3xl mx-auto">
         <div 
           class="transition-all duration-1000 transform"
           :class="howVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'"
@@ -59,18 +58,18 @@
 
     <div class="flex items-center justify-center py-24">
       <div class="flex flex-col w-full"> 
-      <div class="prose prose-lg lg:prose-2xl  max-w-6xl mx-auto text-left mb-16">
+      <div class="prose prose-lg lg:prose-2xl max-w-3xl mx-auto text-left mb-16">
         <h1>Who We Are</h1>
         </div>  
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-6xl mx-auto px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-20 max-w-4xl mx-auto px-5">
           <div 
-            class="prose prose-lg transition-all duration-1000 delay-200 transform"
+            class="prose transition-all duration-1000 delay-200 transform"
             :class="aboutVisible ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'"
           >
             <ContentRenderer v-if="karin" :value="karin" />
           </div>
           <div 
-            class="prose prose-lg transition-all duration-1000 delay-400 transform"
+            class="prose transition-all duration-1000 delay-400 transform"
             :class="aboutVisible ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'"
           >
             <ContentRenderer v-if="gary" :value="gary" />
@@ -95,7 +94,7 @@
         </div>
 
           <div 
-    class="w-full max-w-md mx-auto transition-all duration-1000 delay-300 transform"
+    class="w-full my-12 max-w-md mx-auto transition-all duration-1000 delay-300 transform"
     :class="contactVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
   >
     <Formspree />
