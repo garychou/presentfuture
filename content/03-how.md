@@ -1,9 +1,10 @@
 # Let's work together.
 
-We work with public, philanthropic, and private funders and investors to shape funding approaches that make this possible.
+We work with public, philanthropic, and private funders and investors to design funding strategies that shift incentives and unlock progress.
 
 We help them:
 
-- Focus on what matters in a noisy landscape  
-- Shape funding strategies that support experimentation and learning  
-- Design programs that enable long-term resilience
+- Focus their limited time and attention on the most catalytic opportunities
+- Understand their unique leverage—and design strategies that put it to work
+- Accelerate what works—and learn from what doesn’t
+
