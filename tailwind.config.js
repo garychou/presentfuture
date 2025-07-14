@@ -23,13 +23,14 @@ module.exports = {
                     h2: { fontFamily: theme('fontFamily.heading').join(', ') },
                     h3: { 
                         fontFamily: theme('fontFamily.body').join(', '),
-                        fontSize: '1.2rem',
+                        fontSize: '1.3rem',
                                 '@screen md': {
                                 fontSize: '1.5rem'
                                 },
                                 '@screen lg': {
-                                fontSize: '1.875rem'
+                                fontSize: '1.7rem !important'
                                 },
+
                         fontWeight: '400 !important',         // Weight (font-semibold)
                         lineHeight: '1.4 !important',         // Line height
                         marginTop: '2rem',         // Top margin

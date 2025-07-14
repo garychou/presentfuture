@@ -11,7 +11,7 @@
     >
       <div class="h-full flex items-center justify-center text-lg md:text-3xl ">
         <div 
-          class="prose prose-invert lg:prose-xl text-left mx-auto transition-all duration-1000 transform"
+          class="prose prose-invert lg:prose-2xl text-left mx-auto transition-all duration-1000 transform"
           :class="heroVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
         >
           <ContentRenderer v-if="hero" :value="hero" />
