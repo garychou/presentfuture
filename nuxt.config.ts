@@ -29,8 +29,24 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: 'Present/Future',
+      htmlAttrs: {
+        lang: 'en'
+      },
       meta: [
-        { name: 'viewport',  content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }
+        { charset: 'utf-8' },
+        { name: 'viewport',  content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' },
+        { hid: 'description', name: 'description', content: 'Advisory for forward-thinking funders exploring new economic models, audience engagement, and shared experiential learning.' },
+
+        { property: 'og:title', content: 'Present/Future' },
+        { property: 'og:description', content: 'An advisory for public, philanthropic, and private funders seeking to shift incentives and unlock progress in independent media and beyond.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://presentfuture.org' }, 
+
+
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Present/Future' },
+        { name: 'twitter:description', content: 'Helping funders focus, leverage their strengths, and accelerate what works.' },
 
       ]
     }
