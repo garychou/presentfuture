@@ -7,7 +7,7 @@
     <!-- Hero Section -->
    <section 
       ref="heroSection"
-      class="h-screen snap-start bg-gradient-to-r from-blue-500 to-purple-600 px-5"
+      class="h-screen snap-start bg-gradient-to-r from-blue-600 to-purple-700 px-5"
     >
       <div class="h-full flex items-center justify-center text-lg md:text-3xl ">
         <div 
@@ -23,7 +23,7 @@
     <!-- Funder Section -->
     <section 
       ref="fundersSection"
-      class="h-screen snap-start bg-red-50 px-5"
+      class="h-screen snap-start bg-amber-50 px-5"
     >
       <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-3xl mx-auto">
         <div 
@@ -52,7 +52,7 @@
     <!-- Author Bios Side by Side -->
     <section 
       ref="aboutSection"
-      class="min-h-screen snap-start bg-gray-100"
+      class="min-h-screen snap-start bg-stone-100"
     >
        
 
@@ -82,7 +82,7 @@
     <!-- CTA Section -->
     <section 
       ref="contactSection"
-      class="min-h-screen snap-start bg-black text-white px-4 md:px-8"
+      class="min-h-screen snap-start bg-zinc-900 text-white px-4 md:px-8"
     >
       <div class="h-full flex items-center justify-center flex-col  py-24">
         <div 

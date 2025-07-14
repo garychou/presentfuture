@@ -4,7 +4,7 @@ We work with public, philanthropic, and private funders and investors to design 
 
 We help them:
 
-- Focus their limited time and attention on the most catalytic opportunities
-- Understand their unique leverage—and design strategies that put it to work
-- Accelerate what works—and learn from what doesn’t
+- **Focus** their limited time and attention on the most catalytic opportunities
+- **Leverage** their unique strengths—and design programs that put it to work
+- **Accelerate** what works—and learn from what doesn’t
 
