@@ -9,9 +9,9 @@
       ref="heroSection"
       class="h-screen snap-start bg-gradient-to-r from-blue-500 to-purple-600 px-8"
     >
-      <div class="h-full flex items-center justify-center text-3xl ">
+      <div class="h-full flex items-center justify-center text-lg md:text-3xl ">
         <div 
-          class="prose prose-invert prose-2xl text-left mx-auto transition-all duration-1000 transform"
+          class="prose prose-invert prose-lg lg:prose-2xl text-left mx-auto transition-all duration-1000 transform"
           :class="heroVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
         >
           <ContentRenderer v-if="hero" :value="hero" />
@@ -25,7 +25,7 @@
       ref="fundersSection"
       class="h-screen snap-start bg-red-50 px-8"
     >
-      <div class="h-full flex items-center justify-center prose prose-2xl max-w-4xl mx-auto">
+      <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-4xl mx-auto">
         <div 
           class="transition-all duration-1000 transform"
           :class="fundersVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'"
@@ -40,7 +40,7 @@
       ref="howSection"
       class="h-screen snap-start bg-green-50 px-8"
     >
-      <div class="h-full flex items-center justify-center prose prose-2xl max-w-4xl mx-auto">
+      <div class="h-full flex items-center justify-center prose prose-lg lg:prose-2xl  max-w-4xl mx-auto">
         <div 
           class="transition-all duration-1000 transform"
           :class="howVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'"
@@ -59,7 +59,7 @@
 
     <div class="flex items-center justify-center py-24">
       <div class="flex flex-col w-full"> 
-      <div class="prose prose-2xl max-w-6xl mx-auto text-center mb-16">
+      <div class="prose prose-lg lg:prose-2xl  max-w-6xl mx-auto text-left mb-16">
         <h1>Who We Are</h1>
         </div>  
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-6xl mx-auto px-8">
@@ -87,7 +87,7 @@
     >
       <div class="h-full flex items-center justify-center flex-col  py-24">
         <div 
-          class="prose prose-invert prose-xl text-center mx-auto transition-all duration-1000 transform"
+          class="prose prose-invert prose-lg lg:prose-2xl text-left mx-auto transition-all duration-1000 transform"
           :class="contactVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
         >
           <ContentRenderer v-if="contact" :value="contact" />
@@ -95,7 +95,7 @@
         </div>
 
           <div 
-    class="w-full max-w-lg mx-auto transition-all duration-1000 delay-300 transform"
+    class="w-full max-w-md mx-auto transition-all duration-1000 delay-300 transform"
     :class="contactVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
   >
     <Formspree />

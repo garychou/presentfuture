@@ -14,6 +14,24 @@ export default defineNuxtConfig({
       routes: ['/']
     }
   },
+  vite: {
+    server: {
+      allowedHosts: [
+        '.ngrok-free.app',
+        '.ngrok.io'
+      ]
+    }
+  },
+  app: {
+    head: {
+      meta: [
+        { 
+          name: 'viewport', 
+          content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' 
+        }
+      ]
+    }
+  },
   googleFonts: {
     display: 'swap',
     preload: true,

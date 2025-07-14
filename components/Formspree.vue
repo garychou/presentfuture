@@ -1,6 +1,6 @@
 <!-- Formspree.vue -->
  <template>
-  <div class="max-w-md mx-auto">
+  <div class="max-w-md w-full mx-auto">
    
     <form v-if="!submitted" @submit.prevent="submitForm" class="space-y-4">
       <div>
