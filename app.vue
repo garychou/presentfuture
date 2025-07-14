@@ -1,4 +1,5 @@
-<template>
+<!-- app.vue -->
+ <template>
   <div ref="scrollContainer"
   class="h-screen overflow-y-scroll snap-y snap-mandatory  focus:outline-none"
       tabindex="0"
@@ -52,16 +53,16 @@
     <!-- Author Bios Side by Side -->
     <section 
       ref="aboutSection"
-      class="h-screen snap-start bg-gray-100"
+      class="min-h-screen snap-start bg-gray-100"
     >
        
 
-    <div class="h-full flex items-center justify-center">
+    <div class="flex items-center justify-center py-24">
       <div class="flex flex-col w-full"> 
       <div class="prose prose-2xl max-w-6xl mx-auto text-center mb-16">
         <h1>Who We Are</h1>
         </div>  
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-6xl mx-auto px-8">
           <div 
             class="prose prose-lg transition-all duration-1000 delay-200 transform"
             :class="aboutVisible ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'"
@@ -82,17 +83,23 @@
     <!-- CTA Section -->
     <section 
       ref="contactSection"
-      class="h-screen snap-start bg-black text-white"
+      class="min-h-screen snap-start bg-black text-white px-4 md:px-8"
     >
-      <div class="h-full flex items-center justify-center">
+      <div class="h-full flex items-center justify-center flex-col  py-24">
         <div 
           class="prose prose-invert prose-xl text-center mx-auto transition-all duration-1000 transform"
           :class="contactVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
         >
           <ContentRenderer v-if="contact" :value="contact" />
-<Formspree/>
 
         </div>
+
+          <div 
+    class="w-full max-w-lg mx-auto transition-all duration-1000 delay-300 transform"
+    :class="contactVisible ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-8 opacity-0 scale-95'"
+  >
+    <Formspree />
+  </div>
       </div>
 
 

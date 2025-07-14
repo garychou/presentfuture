@@ -1,4 +1,5 @@
-<template>
+<!-- Formspree.vue -->
+ <template>
   <div class="max-w-md mx-auto">
    
     <form v-if="!submitted" @submit.prevent="submitForm" class="space-y-4">
@@ -8,7 +9,7 @@
           type="text"
           placeholder="Your Name"
           required
-          class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none text-gray-900"
+          class=" text-sm md:text-base w-full px-3 md:px-4 py-2 md:py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none text-gray-900"
         />
       </div>
       
@@ -18,7 +19,7 @@
           type="email"
           placeholder="Your Email"
           required
-          class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none text-gray-900"
+          class=" text-sm md:text-base w-full px-3 md:px-4 py-2 md:py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none text-gray-900"
         />
       </div>
       
@@ -28,14 +29,14 @@
           placeholder="Tell us about your work"
           rows="4"
           required
-          class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none resize-none text-gray-900"
+          class=" text-sm md:text-base w-full px-3 md:px-4 py-2 md:py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:outline-none resize-none text-gray-900"
         ></textarea>
       </div>
       
       <button
         type="submit"
         :disabled="loading"
-        class="w-full py-3 px-6 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition-colors disabled:opacity-50"
+        class=" text-sm md:text-base w-full py-3 px-6 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition-colors disabled:opacity-50"
       >
         {{ loading ? 'Sending...' : 'Send Message' }}
       </button>
