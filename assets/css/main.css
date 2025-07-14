@@ -10,3 +10,11 @@ body {
 h1, h2, h3 {
   @apply font-heading;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
+.h-screen {
+  overflow-x: hidden;
+}
